@@ -18,16 +18,13 @@ img {
 }
 
 #footerbox {
-    border-top: 2px solid gray;
-    border-bottom: 2px solid cornflowerblue;
-    background-color: cornflowerblue;
     height: 75px;
     
 }
 .footertext {
-    margin-top: 25px;
+    margin-top: 10px;
     text-align: center;
-    color:black;
+    color: grey;
     font-size: medium;
     font-family: 'Barlow', sans-serif;
 }
@@ -36,8 +33,4 @@ img {
     margin-top: 5%;
     margin-bottom: 5%;
     font-family: 'Barlow', sans-serif;
-}
-
-.footerbox {
-    display: block;
 }
