@@ -8,18 +8,17 @@ img {
     height: 200px;
     width: 150px;
     float: left;
-    padding-right: 10%;
-    padding-right: 10px;
+    margin-right: 25px;
 }
 
 .card-text {
     color: black;
-    margin-left: 5px;
+    margin-right: 25px;
 }
 
 #footerbox {
     height: 75px;
-    
+    margin: 10px;   
 }
 .footertext {
     margin-top: 10px;
@@ -33,4 +32,12 @@ img {
     margin-top: 5%;
     margin-bottom: 5%;
     font-family: 'Barlow', sans-serif;
+    color: black;
+}
+
+
+#placeholder {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
