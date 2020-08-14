@@ -11,6 +11,13 @@ img {
     margin-right: 25px;
 }
 
+.portfilioimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+
 .card-text {
     color: black;
     margin-right: 25px;
@@ -41,3 +48,15 @@ img {
     margin-bottom: 20px;
     
 }
+
+.contactcard {
+    color: black;
+    font: bolder;
+    margin-top: 10px;
+}
+
+/* .contactinput { */
+    width: 125%;
+    overflow: hidden;
+}
+
