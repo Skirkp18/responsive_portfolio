@@ -1,16 +1,5 @@
 /* Style Sheet for Responsive Portfolio Homework  */
 
-#navbar {
-    font-family: 'Barlow', sans-serif;
-}
-
-#mainimage {
-    height: 200px;
-    width: 150px;
-    float: left;
-    margin-right: 10px;
-}
-
 .portfolioimage {
     width: 200px;
     margin: auto;
@@ -23,27 +12,12 @@
     margin-right: 25px;
 }
 
-#footerbox {
-    height: 75px;
-    margin: 10px;
-}
-
 .footertext {
     margin-top: 10px;
     text-align: center;
     color: grey;
     font-size: medium;
     font-family: 'Barlow', sans-serif;
-}
-
-#aboutme {
-    margin-bottom: 10%;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-family: 'Barlow', sans-serif;
-    color: black;
-    background-color: whitesmoke;
 }
 
 .contactcard {
@@ -60,4 +34,30 @@
     float: left;
     width: auto;
     margin-bottom: 35px;
+}
+
+#aboutme {
+    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Barlow', sans-serif;
+    color: black;
+    background-color: whitesmoke;
+}
+
+#footerbox {
+    height: 75px;
+    margin: 10px;
+}
+
+#navbar {
+    font-family: 'Barlow', sans-serif;
+}
+
+#mainimage {
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin-right: 10px;
 }
