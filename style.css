@@ -4,19 +4,18 @@
     font-family: 'Barlow', sans-serif;
 }
 
-img {
+#mainimage {
     height: 200px;
     width: 150px;
     float: left;
     margin-right: 25px;
 }
 
-.portfilioimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%; 
+.portfolioimage {
+    width: 200px;
+    margin: auto;
 }
+
 
 .card-text {
     color: black;
@@ -36,10 +35,10 @@ img {
 }
 
 #aboutme {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 10%;
     font-family: 'Barlow', sans-serif;
     color: black;
+    background-color: whitesmoke;
 }
 
 
@@ -55,8 +54,6 @@ img {
     margin-top: 10px;
 }
 
-/* .contactinput { */
-    width: 125%;
-    overflow: hidden;
+.card-header {
+    background-color: whitesmoke;
 }
-
