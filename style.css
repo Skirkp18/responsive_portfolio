@@ -16,7 +16,6 @@
     margin: auto;
 }
 
-
 .card-text {
     color: black;
     margin-right: 25px;
@@ -24,8 +23,9 @@
 
 #footerbox {
     height: 75px;
-    margin: 10px;   
+    margin: 10px;
 }
+
 .footertext {
     margin-top: 10px;
     text-align: center;
@@ -44,11 +44,9 @@
     background-color: whitesmoke;
 }
 
-
 #placeholder {
     margin-top: 20px;
     margin-bottom: 20px;
-    
 }
 
 .contactcard {
@@ -59,4 +57,9 @@
 
 .card-header {
     background-color: whitesmoke;
+}
+
+.skillslist {
+    float: left;
+    width: auto;
 }
