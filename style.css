@@ -60,3 +60,16 @@
     float: left;
     margin-right: 20px;
 }
+
+#passwordgeneratorimg {
+    height: 175px;
+    width: 250px;
+}
+
+#passwordgeneratortxt {
+    font-size: larger;
+    margin-top: -20px;
+    margin-left: 15%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
