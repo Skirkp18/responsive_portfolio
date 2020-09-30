@@ -51,8 +51,10 @@
     margin-top: 10px;
 }
 
-footer {
-    margin-top: 10px;
+#contactfooter {
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 #footerbox {
 
