@@ -73,15 +73,45 @@ footer {
     border: 2px solid black;
 }
 
+.applink {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 #passwordgeneratorimg {
+    border: 2px solid black;
     height: 175px;
     width: 250px;
 }
 
-#passwordgeneratortxt {
+#weatherdashboard {
+    border: 2px solid black;
+    height: 175px;
+    width: 250px;
+}
+
+#qchefimg {
+    border: 2px solid black;
+    height: 175px;
+    width: 235px; 
+}
+
+#workdayschedulerimg {
+    border: 2px solid black;
+    height: 170px;
+    width: 235px; 
+}
+
+#codingquizimg {
+    border: 2px solid black;
+    height: 170px;
+    width: 235px;   
+}
+
+.portfoliotxt {
     font-size: larger;
     margin-top: -10px;
-    margin-left: 85px;
+    /* margin-left: 100px; */
     font-weight: bolder;
     text-decoration: underline;
 }
