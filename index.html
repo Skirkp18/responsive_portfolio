@@ -48,59 +48,142 @@
 
 <!-- grid -->
 <div class="container-fluid"
-  style="background-image: url(https://images.unsplash.com/photo-1455612693675-112974d4880b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1600&h=500&q=60);">
+  id="mainbody">
 
   <!-- row -->
   <article class="row">
 
-    <!-- colomn -->
-    <div class="col-lg-5" id="aboutme">
+
+    <!-- colomn 1 main body -->
+    <div class="col-lg-8">
 
       <!-- about me -->
-      <div style="background-color: whitesmoke;">
-        <div class=" card-header">
-          <h1>About Me</h1>
+      <div class="card body" id="aboutme">
+
+        <!-- card header -->
+        <div class="card-header">
+          <h1 class="card-title">About Me!</h1>
         </div>
-        <div class="card-body text-primary">
-          <img src="assets/DSC07186.JPG" id="mainimage" alt="Sean Kirkpatick">
-          <p class="card-text">My name is Sean Kirkpatrick and I currently work for Apple. I am training to be a
-            full stack web developer. I graduated from Marist College with a B.S. in Business Administration with an
-            Emphasis
-            in Marketing in 2015 and have since worked as a manager of the mobile department at Best Buy. I have
-            5+ years of expirence using and troubleshooting mobile devices as well as Apple computers. I am proficent
-            with many different operating systems such as Android, iOS, MacOS, and Windows.</p>
-          <br>
-          <br>
-          <!-- education list -->
-          <div>
-            <h3 class="card-text" style="font-weight: bolder; font-style: italic;"><u>Education</u></h3>
-            <ul class="card-text">
-              <li>Graduated Marist College in 2015</li>
-              <li>B.S. In Business Administration with an Emphasis in Marketing</li>
-              <li>Columbia Full Stack Coding Bootcamp Certification (Pending)</li>
+
+        <!-- card body -->
+        <div class="card-body container-fluid">
+
+          <!-- sub row img and txt-->
+          <div class="row">
+            <div class="col-sm-4">
+          <img src="assets\DSC07186.JPG" alt="Profile Picture" class="card" id="mainimage">
+            </div>
+            <div class="col-sm-8">
+          <p class="card-text" id="aboutmetxt">My name is Sean Kirkpatrick and I currently work for Apple. I am training to be a full stack web developer. I graduated from Marist College with a B.S. in Business Administration with an Emphasis in Marketing in 2015 and have since worked as a manager of the mobile department at Best Buy. I have 5+ years of expirence using and troubleshooting mobile devices as well as Apple computers. I am proficent with many different operating systems such as Android, iOS, MacOS, and Windows.</p>
+            </div>
+        </div>
+
+        <!-- sub row education and skills-->
+        <div class="row" style="margin: 10px;">
+          <div class="col-lg-4 lists card">
+            <h4>Education:</h4>
+            <ul>
+              <li>Marist College</li>
+              <li>Columbia School of Engineering</li>
+            </ul>
+            <h4>Degress and Certifications:</h4>
+            <ul>
+              <li>B.S. In Business Administration With A Marketing Emphasis</li>
+              <li>Full Stack Web Develoupment Certification</li>
             </ul>
           </div>
-          <br>
-          <br>
-          <!-- skill list -->
-          <div class="skillslist">
-            <h3 class="card-text" style="font-weight: bolder; font-style: italic;"><u>Skills</u></h3>
-            <ul class="card-text">
-              <li>HTML5</li>
+          <div class="col-lg-4 lists card">
+            <h4>Skills:</h4>
+            <ul>
+              <li>Leadership</li>
+              <li>Customer Service</li>
+              <li>HTML</li>
               <li>CSS</li>
-              <li>Bootstrap By Twitter</li>
+              <li>BootStrap by Twitter</li>
+              <li>Javascript</li>
+              <li>JQuery</li>
             </ul>
           </div>
-          <!-- my pages -->
-          <div class="skillslist">
-            <h3 class="card-text" style="font-weight: bolder; font-style: italic;"><u>Find Me @</u></h3>
-            <ul class="card-text">
-              <li><a href="https://www.linkedin.com/in/sean-kirkpatrick/" target="_blank">LinkedIn</a></li>
-              <li><a href="https://twitter.com/Skirkp18" target="_blank">Twitter</a></li>
-              <li><a href="https://www.facebook.com/Skp18" target="_blank">FaceBook</a></li>
+          <div class="col-lg-4 lists card">
+            <h4>Expirence:</h4>
+            <ul>
+              <li>Specalist - Apple Inc. (Current)</li>
+              <li>Mobile Supervisor - Best Buy (Date)</li>
+              <li>Verzion Mobile Specalist - Best Buy (Date)</li>
+              <li>Apple Master - Best Buy (Date)</li>
+            </ul>
+            <h4>Achievements:</h4>
+            <ul>
+              <li>Best Buy Achievers Contest 2018</li>
+              <li>Dean's List</li>
             </ul>
           </div>
         </div>
+         
+        </div>
+      </div>
+    </div>
+    
+
+      <!-- colomn 2 sidebar -->
+    <div class="col-lg-4" id="sidebar">
+
+        <!-- link card -->
+      <div class="card body" id="linkcard">
+
+        <!-- card header -->
+        <div class="card-header">
+          <h1 class="card-title">Find Me @</h1>
+        </div>
+
+        <!-- sub grid -->
+        <div class="container-fluid card-body">
+
+          <!-- row 1 (github) -->
+          <div class="row">
+            <div class="col-12 card social container-fluid">
+              <!-- subrow -->
+              <div class="row">
+                <div class="col-3 card imgcard">
+                <img src="https://miro.medium.com/max/719/0*9f5uMrKMjLbzEf7q.png" alt="GitHub" class="socialImg">
+                </div>
+                <div class="col-8 btncard">
+                  <button class="btn btn-dark linkbtn"><h4>Github</h4></button>
+                </div>
+              </div>
+              </div>
+          </div>
+
+          <!-- row 2 (linkedin) -->
+          <div class="row">
+            <div class="col-12 card social container-fluid">
+              <!-- sub row -->
+              <div class="row">
+                <div class="col-3 card imgcard">
+            <img src="https://logos-world.net/wp-content/uploads/2020/04/Linkedin-Logo-2003%E2%80%932011.png" alt="LinkedIn" class="socialImg">
+                </div>
+                <div class="col-8 btncard">
+                  <button class="btn btn-dark linkbtn"><h4>LinkedIn</h4></button>
+                </div>    
+          </div>  
+          </div>
+          </div>
+
+          <!-- row 3 (twitter) -->
+          <div class="row">
+            <div class="col-12 card social container-fluid">
+              <!-- sub row -->
+              <div class="row">
+              <div class="col-3 card imgcard">
+                <img src="https://pngimg.com/uploads/twitter/twitter_PNG31.png" alt="Twitter" class="socialImg">
+              </div>
+              <div class="col-8 btncard">
+                <button class="btn btn-dark linkbtn"><h4>Twitter</h4></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
       </div>
     </div>
   </article>

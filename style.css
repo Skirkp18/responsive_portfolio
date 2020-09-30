@@ -9,6 +9,7 @@
 
 .card-text {
     color: black;
+    /* margin-left: 0px; */
 }
 
 .footertext {
@@ -27,38 +28,53 @@
 
 .card-header {
     background-color: whitesmoke;
+    font-style: italic;
 }
 
-.skillslist {
-    float: left;
-    width: auto;
-    margin-bottom: 35px;
-}
 
-#aboutme {
-    margin-bottom: 10%;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+.body {
+    /* height: 720px; */
+    /* width: 100%; */
     font-family: 'Barlow', sans-serif;
     color: black;
-    background-color: whitesmoke;
-}
-
-#footerbox {
-    height: 75px;
+    border: 2px solid black;
     margin: 10px;
 }
+
+#aboutme{
+
+}
+
+#aboutmetxt {
+    font-size: large;
+    /* margin: 2px; */
+}
+
+#linkcard {
+
+
+}
+
+footer {
+    margin-top: 10px;
+}
+#footerbox {
+
+    height: 75px;
+    margin-top: auto;
+}
+
 
 #navbar {
     font-family: 'Barlow', sans-serif;
 }
 
 #mainimage {
-    height: 200px;
-    width: 150px;
+    height: 90%;
+    width: 95%;
     float: left;
-    margin-right: 20px;
+    margin: 15px;
+    border: 2px solid black;
 }
 
 #passwordgeneratorimg {
@@ -73,3 +89,44 @@
     font-weight: bolder;
     text-decoration: underline;
 }
+
+#sidebar {
+    font-family: 'Barlow', sans-serif;
+
+}
+
+
+#mainbody {
+    background-image: url(https://images.unsplash.com/photo-1455612693675-112974d4880b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1600&h=500&q=60);
+}
+
+.imgcard{
+    border: 2px solid black;
+    margin: 10px;
+
+
+}
+.socialImg {
+    width: 100px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.social {
+    margin: 5%;
+    margin-left: 0%;
+    border: 2px solid gray;
+}
+
+.linkbtn {
+    width: 110%;
+    height: 75%;
+    margin-top: 10px;
+}
+
+.lists {
+    border: 2px solid lightgrey;
+    background-color: whitesmoke;
+}
+
