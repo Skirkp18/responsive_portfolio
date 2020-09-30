@@ -33,7 +33,7 @@
 
 
 .body {
-    /* height: 720px; */
+    /* height: fit-content; */
     /* width: 100%; */
     font-family: 'Barlow', sans-serif;
     color: black;
@@ -41,18 +41,14 @@
     margin: 10px;
 }
 
+
 #aboutme{
 
 }
 
 #aboutmetxt {
     font-size: large;
-    /* margin: 2px; */
-}
-
-#linkcard {
-
-
+    margin-top: 10px;
 }
 
 footer {
@@ -129,4 +125,15 @@ footer {
     border: 2px solid lightgrey;
     background-color: whitesmoke;
 }
+
+#weatherbox {
+    height: 292px;
+    text-align: center;
+}
+
+#weatherImg {
+    height: 150px;
+    width: 250px;
+}
+
 
