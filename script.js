@@ -79,7 +79,7 @@ $("button").on("click", function(){
     } else if (website === "twitter") {
         window.open("https://twitter.com/Skirkp18");
     } else if (website === "resume") {
-        console.log("resume")
+        window.open("https://drive.google.com/file/d/1p1myO5OfoN0CGvy7reQBM4dzcWoBR6kB/view?usp=sharing");
     }
 })
 
