@@ -99,25 +99,24 @@ footer {
 .imgcard{
     border: 2px solid black;
     margin: 10px;
-
-
 }
 .socialImg {
-    width: 100px;
-    border: none;
-    display: block;
-    margin: 0 auto;
+    margin-top: 35px;
+    width: 100%;
+    
 }
 
 .social {
-    margin: 5%;
+    width: 100%;
+    height: 140px;
+    /* margin: 5%; */
     margin-left: 0%;
-    border: 2px solid gray;
+    border: 2px solid black;
 }
 
 .linkbtn {
     width: 110%;
-    height: 75%;
+    height: 115px;
     margin-top: 10px;
 }
 
@@ -127,7 +126,7 @@ footer {
 }
 
 #weatherbox {
-    height: 292px;
+    height: 319px;
     text-align: center;
 }
 

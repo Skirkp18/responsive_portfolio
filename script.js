@@ -24,8 +24,8 @@ function getLocation(pos) {
 
 function getCurrentWeather() {
 
-    console.log(longitude)
-    console.log(latitude)
+    // console.log(longitude)
+    // console.log(latitude)
 
     var key = "2fd6a7c1addf009b30af95d20e54bde2";
     var queryURL = "http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&units=imperial&appid=" + key;
@@ -44,7 +44,7 @@ function getCurrentWeather() {
 }
 
 function displayCurrentWeather() {
-    console.log(currentWeatherObj);
+    // console.log(currentWeatherObj);
 
     let currentTemp = currentWeatherObj.main.temp;
     let maxTemp = currentWeatherObj.main.temp_max;
@@ -65,6 +65,21 @@ function displayCurrentWeather() {
 
 
 }
+
+
+// event listner
+
+$("button").on("click", function(){
+    console.log(this.value);
+    var website = this.value;
+    if (website === "github") {
+        window.open("https://github.com/Skirkp18");
+    } else if (website === "linkedin") {
+        window.open("https://www.linkedin.com/in/sean-kirkpatrick/");
+    } else if (website === "twitter") {
+        window.open("https://twitter.com/Skirkp18");
+    }
+})
 
 // function calls
 
