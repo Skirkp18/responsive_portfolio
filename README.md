@@ -1,13 +1,18 @@
-# responsive_portfolio
+# Responsive_Portfolio
 
-This is my responsive portfolio for homework #2. 
+GitHub Pages Link: https://skirkp18.github.io/responsive_portfolio/
 
-I used Bootstrap by Twitter for the gird system and formatting.
+This page uses:
+-BootStrap for Mobile responsiveness
+-JQuery and Ajax Calls
 
-The project contains an index.html, portfolio.html, contact.html, and style.css pages.
+This is my personal portforolio. Within is a link to my resume, information about me, links to my GitHib, LinkedIn, And Twitter, as well as links to my deployed applications.
 
-Each page contains a card with sub grids within the cards for formating.
+<img src="assets\Responsive_Portfolio_v2.0.png">
 
-Each page was put through an HTML validation service for formatting and corrections.
+<img src="assets\Portfolio_Page_V.20.png">
 
-Thank you for reading!
+Copyright <YEAR> <COPYRIGHT HOLDER>
+
+Sean Kirkpatrick
+Skirkp18@gmail.com

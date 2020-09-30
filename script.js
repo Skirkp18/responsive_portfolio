@@ -28,7 +28,7 @@ function getCurrentWeather() {
     // console.log(latitude)
 
     var key = "2fd6a7c1addf009b30af95d20e54bde2";
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&units=imperial&appid=" + key;
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&units=imperial&appid=" + key;
 
     $.ajax({
       url: queryURL,
