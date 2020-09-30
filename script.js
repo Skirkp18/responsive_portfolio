@@ -78,8 +78,11 @@ $("button").on("click", function(){
         window.open("https://www.linkedin.com/in/sean-kirkpatrick/");
     } else if (website === "twitter") {
         window.open("https://twitter.com/Skirkp18");
+    } else if (website === "resume") {
+        console.log("resume")
     }
 })
+
 
 // function calls
 
