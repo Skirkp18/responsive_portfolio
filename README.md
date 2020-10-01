@@ -12,6 +12,6 @@ This is my personal portforolio. Within is a link to my resume, information abou
 
 <img src="assets\Portfolio_Page_V.20.png">
 
-Copyright <2020> <Sean Kirkpatrick>
+Copyright 2020 Sean Kirkpatrick
 
 Skirkp18@gmail.com
